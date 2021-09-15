@@ -1,9 +1,10 @@
 helm:
+  fullnameOverride: enterprise-cloud
   replicaCount: 1
   image:
-    repository: gcr.io/heptio-images/ks-guestbook-demo
-    tag: 0.1
-    pullPolicy: IfNotPresent
+    repository: harbor.example.com/app/enterprise-cloud
+    tag: 2021-09-15_13-38-28
+    pullPolicy: Always
   service:
     type: ClusterIP
     port: 80
