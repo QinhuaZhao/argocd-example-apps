@@ -1,3 +1,4 @@
 helm-guestbook:
   service:
     type: ClusterIP
+  replicaCount: 2
