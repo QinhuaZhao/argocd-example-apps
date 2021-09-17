@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: busybox
   pullPolicy: IfNotPresent
-  tag: ""
+  tag: "latest"
 imagePullSecrets: []
 serviceAccount:
   create: false
